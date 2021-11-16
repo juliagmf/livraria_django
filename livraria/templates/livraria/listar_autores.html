@@ -1,0 +1,8 @@
+{% extends 'livraria/base.html' %}
+
+{% block content %}
+        <h3>Lista dos nossos Autores</h3>    
+        {% for autor in autores %}
+            {{autor.nome}}   <br>
+        {% endfor %} 
+{% endblock %}
